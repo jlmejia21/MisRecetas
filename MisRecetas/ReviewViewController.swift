@@ -63,7 +63,7 @@ class ReviewViewController: UIViewController {
         
         UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.5, options: [], animations: { 
              self.firstButton.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
-        }, completion: {
+        }, completion: {    
             (succes) in
             UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.5, options: [], animations: {
                 self.secondButton.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
